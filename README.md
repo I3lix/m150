@@ -3,7 +3,7 @@
 Modul 150 REST API Seite
 
 INSTALL:
-download m150
-$ cd m150-master
-$ npm install
-$ node .
+1. download m150
+2. $ cd m150-master
+3. $ npm install
+4. $ node .
