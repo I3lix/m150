@@ -1,0 +1,134 @@
+/*global*/
+* {
+  margin:0;
+  padding:0;
+}
+body {
+  font-family:'open sans', helvetica, arial, sans;
+  font-size:1rem;
+}
+button {
+  background:white;
+  border:1px solid black;
+  color:black;
+  cursor:pointer;
+  font-family:'open sans', helvetica, arial, sans;
+  padding:.5rem;
+}
+button:active {
+  background:#ddd;
+}
+[disabled] {
+  background:#eee;
+  color:#ccc;
+}
+fieldset {
+  color:black;
+  padding:1rem;
+}
+label {
+  display:inline-block;
+  text-align:right;
+  vertical-align:middle;
+  width:200px;
+}
+select {
+  background:#ddd;
+  text-indent: 0.01px;
+  text-overflow: "";
+}
+p {
+  padding:1rem;
+}
+/*header*/
+body > header {
+  border-bottom:1px solid #ddd;
+}
+body > header h1 {
+  font-size:2rem;
+  padding:1rem 1rem 0 1rem;
+}
+body > header h2 {
+  font-size:1rem;
+  padding:0 1rem;
+}
+/*nav*/
+body > header nav {
+  padding:1rem;
+}
+body > header nav li {
+  display:inline-block;
+  padding-bottom:.5rem;
+}
+body > header nav li a {
+  color:black;
+  padding:.5rem;
+  text-decoration:none;
+  border:1px solid #ddd;
+}
+body > header nav li a.active {
+  background:#eee;
+  border:1px solid black;
+}
+/*main*/
+main section {
+  padding:1rem;
+}
+main section article {
+  padding-bottom:2rem;
+}
+main section article h1 {
+  font-size:1.5rem;
+}
+main section article h2 {
+  font-size:1rem;
+  margin-bottom:1rem;
+}
+/*main form*/
+main input,
+select,
+textarea {
+  background:#ddd;
+  border:0;
+  display:inline-block;
+  font-family:'open sans', helvetica, arial, sans;
+  margin-bottom:1rem;
+  padding:.5rem;
+  vertical-align:middle;
+}
+main select,
+textarea {
+  width:300px;
+}
+/*footer*/
+.footer {
+   position: fixed;
+   margin-left: 10%;
+   bottom: 34px;
+   width: 80%;
+   color: gray;
+   text-align: center;
+   height: 3px
+}
+
+.login-form {
+	width: 340px;
+	margin: 50px auto;
+}
+.login-form form {
+	margin-bottom: 15px;
+	background: #f7f7f7;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+.login-form h3 {
+	margin: 15px 0 0px;
+}
+.form-control, .btn {
+	min-height: 38px;
+	border-radius: 2px;
+}
+.btn {        
+	font-size: 15px;
+	font-weight: bold;
+}
